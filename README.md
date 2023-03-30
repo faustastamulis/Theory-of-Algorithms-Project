@@ -2,7 +2,6 @@
 This is my Github Repository to the assessment that I must complete for the 2023 Theory of Algorithms module. My name is Faustas Tamulis (G00373028@atu.ie). I am a final year full-time student at ATU(Atlantic Technological University). In this assignment we will be talking about the topic of The Polynomial Time
 Complexity Class (P).
 
-## The following topics will be discussed:
 ## Part 1: Description of Polynomial Time Complexity Class (P)
 According to computational complexity theory, the Polynomial Time Complexity Class, abbreviated as P, is the collection of decision problems that can be resolved in polynomial time by a deterministic Turing machine, meaning that the algorithm's execution time is constrained by a polynomial function of the input size.The class P includes many important problems such as sorting, searching, and graph algorithms.
 
