@@ -2,14 +2,18 @@
 This is my Github Repository to the assessment that I must complete for the 2023 Theory of Algorithms module. My name is Faustas Tamulis (G00373028@atu.ie). I am a final year full-time student at ATU(Atlantic Technological University). In this assignment we will be talking about the topic of The Polynomial Time
 Complexity Class (P).
 
+## The following topics will be discussed:
 ## Part 1: Description of Polynomial Time Complexity Class (P)
+According to computational complexity theory, the Polynomial Time Complexity Class, abbreviated as P, is the collection of decision problems that can be resolved in polynomial time by a deterministic Turing machine, meaning that the algorithm's execution time is constrained by a polynomial function of the input size.The class P includes many important problems such as sorting, searching, and graph algorithms.
 
 ## Part 2: Problems with P
+The issue is that some significant issues that emerge in practice, such optimization problems and decision problems in number theory, have been demonstrated to be NP-hard, which means that they are at least as challenging as the hardest problems in NP. These issues are impossible to resolve for huge input sizes because they take exponentially long to solve on a deterministic system.
 
 ## Part 3: Relationship with NP
+The connection between the difficulty classes P and NP is a crucial open issue in computer science and mathematics. If you want to put it simply, the question is whether every issue that can be verified in polynomial time (NP) can likewise be resolved in polynomial time (P). Due to the fact that P is a subset of NP, all of its problems also exist in NP. Considering that any issue that can be resolved in polynomial time may also be resolved in polynomial time, this is true. Whether P is a strict subset of NP or if it is the same as NP is unknown, though.
 
 ## Part 4: Differences between P and NP
-
+Time complexity, Verification vs. solution, Certifications, Complexity hierarchy, and Practical consequences are the primary distinctions between the complexity classes P and NP. We will be taking a look at what each of these refer to when we talk about the difference between P and NP.
 
 ## References:
 [1] https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/
@@ -30,4 +34,4 @@ Complexity Class (P).
 
 [9] https://www.baeldung.com/cs/p-np-np-complete-np-hard
 
-[10] https://academickids.com/encyclopedia/index.php/Complexity_classes_P_and_NP
+[10] https://www.scottaaronson.com/papers/pnp.pdf
